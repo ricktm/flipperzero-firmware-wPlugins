@@ -35,6 +35,8 @@ const struct WifiMarauderItem items[NUM_MENU_ITEMS] = {
     {"scanap", NO_ARGS, FOCUS_CONSOLE_END},
     {"select -a", INPUT_ARGS, FOCUS_CONSOLE_END},
     {"select -s", INPUT_ARGS, FOCUS_CONSOLE_END},
+    {"settings -r", INPUT_ARGS, FOCUS_CONSOLE_END},
+    {"settings -s", INPUT_ARGS, FOCUS_CONSOLE_END},
     {"sniffbeacon", NO_ARGS, FOCUS_CONSOLE_END},
     {"sniffdeauth", NO_ARGS, FOCUS_CONSOLE_END},
     {"sniffesp", NO_ARGS, FOCUS_CONSOLE_END},
